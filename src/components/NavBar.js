@@ -32,7 +32,7 @@ class NavBar extends React.Component {
         </NavLink>
         <Nav id="sidebar-wrapper" className={active}>
           <ul className="sidebar-nav">
-            <li className="sidebar-brand">
+            <li className="sidebar-brand mock-link">
               <Link className="js-scroll-trigger"
                 activeClass="active"
                 to="top-page"
@@ -40,7 +40,7 @@ class NavBar extends React.Component {
                 smooth={true}
                 duration={1000}>Leonel Nieto</Link>
             </li>
-            <li className="sidebar-nav-item">
+            <li className="sidebar-nav-item mock-link">
               <Link className="js-scroll-trigger"
                 activeClass="active"
                 to="aboutme"
@@ -48,7 +48,7 @@ class NavBar extends React.Component {
                 smooth={true}
                 duration={1000}>About Me</Link>
             </li>
-            <li className="sidebar-nav-item">
+            <li className="sidebar-nav-item mock-link">
               <Link className="js-scroll-trigger"
                 activeClass="active"
                 to="expertize"
@@ -56,7 +56,7 @@ class NavBar extends React.Component {
                 smooth={true}
                 duration={1000}>Expertize</Link>
             </li>
-            <li className="sidebar-nav-item">
+            <li className="sidebar-nav-item mock-link">
               <Link className="js-scroll-trigger"
                 activeClass="active"
                 to="projects"
@@ -64,7 +64,7 @@ class NavBar extends React.Component {
                 smooth={true}
                 duration={1000}>Projects</Link>
             </li>
-            <li className="sidebar-nav-item">
+            <li className="sidebar-nav-item mock-link">
               <Link className="js-scroll-trigger"
                 activeClass="active"
                 to="socialMedia"

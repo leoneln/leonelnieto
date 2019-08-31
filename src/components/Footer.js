@@ -7,7 +7,10 @@ class Footer extends React.Component {
   render() {
     return (
       <footer className="footer text-center" id="socialMedia">
-        <div className="container">
+        <div className="container text-center">
+          <div className="content-section-heading mb-5">
+            <h2>More on Social Media</h2>
+          </div>
           <ul className="list-inline mb-5">
             <li className="list-inline-item">
               <NavLink className="social-link rounded text-white mr-3 p-0" href="https://github.com/leoneln">
