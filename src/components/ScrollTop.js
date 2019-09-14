@@ -3,19 +3,52 @@ import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class ScrollTop extends React.Component {
-  state = {}
+  constructor(props) {
+    super(props);
+    this.state = {
+      prevScrollpos: window.pageXOffset,
+      visible: false
+    }
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
+  }
+
+  handleScroll = () => {
+    //const { prevScrollpos } = this.state;
+    const currentScrollPos = window.pageXOffset;
+    //const visible = prevScrollpos < currentScrollPos;
+
+    this.setState({
+      prevScrollpos: currentScrollPos,
+      visible: true
+    })
+  }
+
   render() {
-    return (
-      <>
-        <Link className="mock-link scroll-to-top rounded js-scroll-trigger"
-          to="top-page"
-          spy={true}
-          smooth={true}
-          duration={1000}>
-          <FontAwesomeIcon icon='angle-up' />
-        </Link>
-      </>
-    );
+
+    console.log(this.props.visible);
+    if (this.props.visible) {
+      return (
+        <>
+          <Link className="mock-link scroll-to-top rounded js-scroll-trigger"
+            to="top-page"
+            spy={true}
+            smooth={true}
+            duration={1000}>
+            <FontAwesomeIcon icon='angle-up' />
+          </Link>
+        </>
+      );
+    } else {
+      return (
+        <></>
+      )
+    }
   }
 }
 
