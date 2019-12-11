@@ -7,9 +7,9 @@ class Expertize extends React.Component {
   render() {
     return (
       <section className="content-section callout" id="expertize">
-        <div className="container-fluid text-center text-white">
+        <div className="container-fluid text-center white-bg-faded">
           <div className="content-section-heading">
-            <h2>My Expertize</h2>
+            <h2>Experience</h2>
             <p className="lead">I have gained experience in the following areas</p>
           </div>
           <div className="row">

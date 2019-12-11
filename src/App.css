@@ -208,23 +208,23 @@
  }
  
  .service-icon {
-   color: #fff;
    height: 7rem;
    width: 7rem;
    display: block;
    line-height: 7.5rem;
    font-size: 3.25rem;
-   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
  }
  
  .callout {
    padding: 15rem 0;
-   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("/img/stock/cables-close-up-computer.jpg");
-   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("/img/stock/cables-close-up-computer.jpg");
+   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("/img/SLCPDIncidents.gif");
+   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("/img/SLCPDIncidents.gif");
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
+ }
+ .white-bg-faded {
+   background-color: rgba(255, 255, 255, 0.8);
  }
  
  /* .callout h2 {
