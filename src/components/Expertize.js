@@ -1,16 +1,15 @@
 import React from 'react';
-//import { Button } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Expertize extends React.Component {
   state = {}
   render() {
     return (
-      <section className="content-section callout" id="expertize">
+      <section className="content-section" id="expertize">
         <div className="container-fluid text-center white-bg-faded">
           <div className="content-section-heading">
             <h2>Experience</h2>
-            <p className="lead">I have gained experience in the following areas</p>
+            <p className="lead">in the following areas</p>
           </div>
           <div className="row">
             <div className="col-lg-2 col-md-6 md-5 mb-lg-0 mx-auto m-0 p-0">
@@ -29,7 +28,7 @@ class Expertize extends React.Component {
               <h4>
                 <strong className="">Website & WebApp Development</strong>
               </h4>
-              <p className="">Experience with HTML, Node, React, JS, PHP</p>
+              <p className="">Experience with HTML, Node, React, JS, PHP, Oracle APEX</p>
             </div>
             <div className="col-lg-2 col-md-6 md-5 mb-lg-0 mx-auto m-0 p-0">
               <span className="service-icon rounded-cirle mx-auto mb-3">

@@ -10,6 +10,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faBars, faWindowClose, faDatabase, faSitemap, faChartLine, faChalkboardTeacher, faServer, faAngleUp } from '@fortawesome/free-solid-svg-icons';
 import Footer from './components/Footer';
+import Giffy from './components/Giffy';
 
 
 library.add(fab, faBars, faWindowClose, faDatabase, faSitemap, faChartLine, faChalkboardTeacher, faServer, faAngleUp);
@@ -23,6 +24,7 @@ class App extends Component {
         <AboutMe />
         <Expertize />
         <Projects />
+        <Giffy />
         <Footer />
         <ScrollTop />
       </div>

@@ -12,18 +12,21 @@ class Header extends React.Component {
         <header className="masthead d-flex">
           <div className="container text-center my-auto">
             <h1 className="mb-1 text-white">Leonel Nieto</h1>
-            <h3 className="mb-5 text-white">
-              <em>"A man who carries a cat by the tail learns something he can learn no other way." -- Mark Twain</em>
-            </h3>
-            <Link className="scroll-link text-white mock-link" to="aboutme"
-              spy={true}
-              smooth={true}
-              duration={1000}
-            ><span></span><span></span><span></span>Learn More
-            </Link>
+            <h4 className="mb-5 text-white">
+              <em>"Intellectual growth should commence at birth and cease only at death." -- Albert Einstein</em>
+            </h4>
           </div>
           <div className="overlay"></div>
         </header>
+        <div className="row text-center">
+          <Link className="scroll-link text-white mock-link" to="aboutme"
+            spy={true}
+            smooth={true}
+            duration={1000}
+          >
+            <span></span><span></span><span></span>Learn More
+          </Link>
+        </div>
       </section>
     );
   }
