@@ -1,14 +1,58 @@
 {
-  "title": "Software Engineer",
-  "summary": "I'm passionate about Computer Software development, looking always for different and most efficient solutions to daily problems of clients. Always growing as a person and as a co worker, looking always to give my best for the company I'm working with.",
+  "title": "Aspiring Technology Guru",
+  "summary": "A strong work ethic and pasion for innovation have allowed me to succeed in all settings. From non-profit sector program management to most recently business intelligence and data analytics in higher education where I have a proven track record of innovative ideas and methods to ensure programs and initiatives are successful. My social science background combined with information technology and analytics expertise enable me to develop a very analytic and strategic approach to problem-solving. My goals are to continue growing my skills in data science, information technology and leadership.",
   "studies": [
     {
-      "institute": "Universidad Central de Venezuela",
-      "logo": "https://media.licdn.com/dms/image/C560BAQEqH4pTb_C3Vg/company-logo_400_400/0?e=1547078400&v=beta&t=w7dqsi-UJEkF4ChiuDRTSUPQ0H_hZiJ6NwWvix_b1Uc",
-      "url": "http://www.ciens.ucv.ve/",
-      "title": "Bachelor on Computer Science",
-      "durationInYears": "5",
-      "graduationYear": 2013
+      "school": "University of Utah",
+      "logo": "https://umc.utah.edu/wp-content/uploads/2015/01/Ulogo_400p.png",
+      "url": "https://utah.edu/",
+      "awards": [
+        {
+          "degree": "Master of Science in Information Systems",
+          "emphasis": "Business Intelligence & Analytics Specialization",
+          "startDate": "2015-01-01",
+          "endDate": "2016-05-07",
+          "gpa": 3.88
+        },
+        {
+          "degree": "Sociology BA, Economics Minor",
+          "emphasis": "Research Scholar Designation & Diversity Certificate",
+          "startDate": "2009-01-06",
+          "endDate": "2011-05-07",
+          "gpa": 3.71
+        }
+      ]
+    },
+    {
+      "school": "Salt Lake Community College",
+      "logo": "https://www.slcc.edu/_redesign/_files/images/slcc-logo.png",
+      "url": "https://www.slcc.edu/",
+      "awards": [
+        {
+          "degree": "Sociology AS",
+          "emphasis": "",
+          "startDate": "2004-08-25",
+          "endDate": "2008-12-15",
+          "gpa": 3.39
+        }
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Sociology Coray Award",
+      "subtext": "Given to undergraduate student for academic achievement and service to the department",
+      "awardYear": "2011"
+    },
+    {
+      "title": "Charles H. Monson Essay Price",
+      "subtext": "Awarded to an undergraduate who writes an outstanding essay on a subject having to do with social change.",
+      "awardYear": "2011"
+    },
+    {
+      "title": "CSBS Research Day Competition",
+      "subtext": "3rd Place on CSBS Research Day Competition",
+      "awardYear": "2011"
     }
   ],
   "certifications": [
@@ -30,88 +74,173 @@
       "verificationLink": "https://www.youracclaim.com/badges/aa466aec-ddbc-4e67-8038-aa8466a4aef9/linked_in_profile"
     }
   ],
+  "skills": [
+    {
+      "icon": "database",
+      "iconprefix": "fas",
+      "title": "SQL, TSQL, ETL",
+      "experienceInYears": 5,
+      "proficiency": "90%",
+      "color": "progress-bar color-1"
+    },
+    {
+      "icon": "html5",
+      "iconprefix": "fab",
+      "title": "Web Dev HTML, CSS & JS",
+      "experienceInYears": 5,
+      "proficiency": "85%",
+      "color": "progress-bar color-2"
+    },
+    {
+      "icon": "node",
+      "iconprefix": "fab",
+      "title": "React, PHP & Node JS",
+      "experienceInYears": 5,
+      "proficiency": "75%",
+      "color": "progress-bar color-3"
+    },
+    {
+      "icon": "java",
+      "iconprefix": "fab",
+      "title": "Java, C Programming",
+      "experienceInYears": 2,
+      "proficiency": "60%",
+      "color": "progress-bar color-4"
+    },
+    {
+      "icon": "python",
+      "iconprefix": "fab",
+      "title": "Python & R Programming",
+      "experienceInYears": 2,
+      "proficiency": "50%",
+      "color": "progress-bar color-5"
+    },
+    {
+      "icon": "chart-line",
+      "iconprefix": "fas",
+      "title": "BI & Data Analytics",
+      "experienceInYears": 7,
+      "proficiency": "90%",
+      "color": "progress-bar color-6"
+    },
+    {
+      "icon": "server",
+      "iconprefix": "fas",
+      "title": "Windows & Linux Admin",
+      "experienceInYears": 3,
+      "proficiency": "70%",
+      "color": "progress-bar color-1"
+    },
+    {
+      "icon": "microsoft",
+      "iconprefix": "fab",
+      "title": "Power BI, Tableau, Cognos",
+      "experienceInYears": 4,
+      "proficiency": "90%",
+      "color": "progress-bar color-2"
+    }
+  ],
   "experiences": [
     {
-      "companyName": "ServiceRocket",
-      "logo": "http://www.slcc.edu/_redesign/_files/images/slcc-logo.png",
-      "url": "https://www.servicerocket.com/",
+      "companyName": "Salt Lake Coummnunity College",
+      "logo": "https://i.slcc.edu/institutionalmarketing/images/logo/SLCClogo-BrandColors2015.png",
+      "url": "http://www.slcc.edu/",
       "roles": [
         {
-          "title": "Software developer",
-          "description": "Development of Application (bots, add-ons) that help simplify day-to-day work for companies using platforms such as Workplace or Atlassian products. To achieve this purpose, Serverless framework is being used taking advantage of AWS stack technologies.",
-          "startDate": "2018-01-01",
+          "title": "Business Analytics, Assistant Director",
+          "description": "Oversee the development of enterprise data dashboards and applications. Lead, mentor, and supervise a team of business analysts. Manage strategic projects and ad hoc data requests. Build a relationship with Information Technology department  to ensure data is securely and efficiently delivered to the appropriate users.",
+          "startDate": "2019-07-02",
           "currentJob": true,
-          "location": "Santiago Province, Chile"
+          "location": "Salt Lake City, Utah"
+        }
+      ]
+    },
+    {
+      "companyName": "Utah Department of Transportation",
+      "logo": "https://www.udot.utah.gov/connect/wp-content/themes/udot/images/logos/udot-48x.png",
+      "url": "https://www.udot.utah.gov/connect/",
+      "roles": [
+        {
+          "title": "Business Intelligence Administrator",
+          "description": "Responsible for researching program, process, and technological improvements and innovations that will (1) foster improved data quality and reporting; (2) eliminate redundancies; (3) streamline current data collection activities or work processes; and (4) facilitate data driven decision making. Worked collaboratively with a team of subject matter experts to build data visualizations, interactive web sites, and dashboards necessary for monitoring performance and reporting to leadership and department stake-holders.",
+          "startDate": "2017-07-15",
+          "endDate": "2018-07-01",
+          "location": "Salt Lake City, Utah"
+        }
+      ]
+    },
+    {
+      "companyName": "Holy Cross Ministries",
+      "logo": "https://www.hcmutah.org/wp-content/uploads/2020/10/Holy-Cross-Ministries-website-header-logo-350x82.png",
+      "url": "https://www.hcmutah.org/",
+      "roles": [
+        {
+          "title": "Information Technology and Data Analytics, Director",
+          "description": "Primary responsibilities included maintaining the organization's client database and information technology infrastructure. Worked to develop metrics and supported efforts for effective data collection across a wide variety of programs and initiatives. Involved in performing analytical tasks, research and designing visualizations of internal and external data sources to inform performance, strategic planning, and funding accountability. Lastly, as a technical expert I was responsible for the network and information technology administration, web maintenance, and technical training.",
+          "startDate": "2013-06-15",
+          "endDate": "2018-07-14",
+          "location": "Salt Lake City, Utah"
         },
         {
-          "title": "Agile Java Developer",
-          "description": "Own the processes of squad, develop code, develop user stories, estimates and other attachments, collaboratively with Product Owner through formal and informal meetings, manage the risks of committed backlog items, manage the quality of processes, output, and throughput.",
-          "startDate": "2016-07-01",
-          "endDate": "2018-01-01",
-          "location": "Santiago Province, Chile"
+          "title": "Outcomes and Program Manager",
+          "description": "Expand and improve existing programs to meet state and federal standards and maintain funding. Develop and maintain a system to track program output and outcome data effectively using logic models, project planning methodologies and program evaluation theories. Report program performance to key stakeholders including governing board, grantors and partners.",
+          "startDate": "2011-09-13",
+          "endDate": "2013-06-14",
+          "location": "Salt Lake City, Utah"
         }
       ]
-    },
+    }
+  ],
+  "otherWork": [
     {
-      "companyName": "Alaya Digital Solutions",
-      "logo": "http://www.slcc.edu/_redesign/_files/images/slcc-logo.png",
-      "url": "http://www.alaya.cl/",
-      "roles": [
+      "title": "Presentations",
+      "details": [
         {
-          "title": "Project Lead",
-          "description": "In charge of planning, take decissions about the technology to used and manage projects with a software development team with abilities to build web applications. This job position requires to have knowledges of the technology used such as Java 8, Spring 4, Hibernate, J2EE, Oracle DB, Weblogic and be able to write the code if neccessary.",
-          "startDate": "2016-03-01",
-          "endDate": "2016-07-01",
-          "location": "Santiago Province, Chile"
+          "title": "Interview: Preschool Impact on Early Elementary School Educational Outcomes",
+          "subtitle": "Research the impact of preschool program on children's educational outcomes using mix-methods research. ",
+          "date": "April 2018",
+          "link": "http://www.icatholic.org/article/focus-on-holy-cross-ministries-of-utahstudys-results-26411151"
         },
         {
-          "title": "Software Engineer",
-          "description": "In charge of building applications for public entities working with backend (J2EE, Srping, Hibernate, OracleDB) and frontend (ExtJs) through REST web services. Responsible of applying good design patterns allowing the increment of software easier and faster on each iteration.",
-          "startDate": "2015-10-01",
-          "endDate": "2016-03-01",
-          "location": "Santiago Province, Chile"
+          "title": "Presentation: 2011 Western Social Science Association Annual Conference - SLC, Utah",
+          "subtitle": "High Education and Low Hopes: An Exploration of the College Experiences and Post-college Expectations of Undocumented Students in Utah",
+          "date": "May 2011",
+          "link": "https://csbs.utah.edu/features/research-day-2011.php"
+        },
+        {
+          "title": "Understanding the Plight of Undocumented Students and the Sociological Imagination",
+          "subtitle": "A Federal Solution to a Public Problem",
+          "date": "May 2011",
+          "link": "https://csbs.utah.edu/features/research-day-2011.php"
         }
       ]
     },
     {
-      "companyName": "Synergy-GB",
-      "logo": "http://www.slcc.edu/_redesign/_files/images/slcc-logo.png",
-      "url": "http://www.alaya.cl/",
-      "roles": [
+      "title": "Volunteering",
+      "details": [
         {
-          "title": "Project Lead",
-          "description": "Project engineer with interest on design and develop of software components responsible for managing the logic and systems integration, that allow communicate web and mobile applications with the data sources of a business. With experiences developing REST/SOAP web services in Java and design and modeling of data for SQL and No-SQL databases.",
-          "startDate": "2014-04-01",
-          "endDate": "2015-10-01",
-          "location": "Caracas, Venezuela"
-        }
-      ]
-    },
-    {
-      "companyName": "IBM",
-      "logo": "http://www.slcc.edu/_redesign/_files/images/slcc-logo.png",
-      "url": "https://www.ibm.com/ve-es/",
-      "roles": [
+          "title": "Esperanza Elementary School",
+          "subtitle": "Governing Board",
+          "date": "Janury 2021",
+          "link": "https://www.esperanzaelementary.org/governing-board.html"
+        },
         {
-          "title": "Sap Consultant",
-          "description": "ABAP and Portal Consultant with interest of developing ABAP programs that can be use at a high level for other departments and also with abilities to install and migrate a Portal SAP system.",
-          "startDate": "2013-06-01",
-          "endDate": "2014-03-01",
-          "location": "Caracas, Venezuela"
-        }
-      ]
-    },
-    {
-      "companyName": "4Geeks",
-      "logo": "http://www.slcc.edu/_redesign/_files/images/slcc-logo.png",
-      "url": "https://www.4geeksacademy.co",
-      "roles": [
+          "title": "Communidades Unidas",
+          "subtitle": "Governing Board",
+          "date": "January 2019",
+          "link": "https://www.cuutah.org/"
+        },
         {
-          "title": "Web programmer",
-          "description": "In charge of developing web services using the framework Django used for a e-commerce web site",
-          "startDate": "2012-11-01",
-          "endDate": "2013-03-01",
-          "location": "Caracas, Venezuela"
+          "title": "Salt Lake County Library - WVC, Utah",
+          "subtitle": "Adult Computer Literacy",
+          "date": "May 2017",
+          "link": "/Resume/"
+        },
+        {
+          "title": "Holy Cross Ministries",
+          "subtitle": "Client Receptionist",
+          "date": "May 2011",
+          "link": "https://www.hcmutah.org/"
         }
       ]
     }

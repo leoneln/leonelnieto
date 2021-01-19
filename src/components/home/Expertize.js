@@ -17,9 +17,9 @@ class Expertize extends React.Component {
                 <FontAwesomeIcon icon="database" />
               </span>
               <h4>
-                <strong className="">Database, Data Storage & ETL</strong>
+                <strong className="">Database, Data Management & ETL</strong>
               </h4>
-              <p className="">Design and develop databases in MSSQL and MySQL. Extract, Transform and Load tools.</p>
+              <p className="">Design and develop databases and extract, transform and load </p>
             </div>
             <div className="col-lg-2 col-md-6 md-5 mb-lg-0 mx-auto m-0 p-0">
               <span className="service-icon rounded-cirle mx-auto mb-3">

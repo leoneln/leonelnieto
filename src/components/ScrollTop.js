@@ -30,9 +30,7 @@ class ScrollTop extends React.Component {
   }
 
   render() {
-
-    console.log(this.props.visible);
-    if (this.props.visible) {
+    if (this.state.visible) {
       return (
         <>
           <Link className="mock-link scroll-to-top rounded js-scroll-trigger"

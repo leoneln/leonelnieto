@@ -1,7 +1,8 @@
 import React from 'react';
-import { Nav, NavLink } from 'reactstrap';
+import { Nav } from 'reactstrap';
 import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { NavLink } from 'react-router-dom';
 
 class NavBar extends React.Component {
   constructor(props) {
@@ -20,14 +21,13 @@ class NavBar extends React.Component {
   }
 
   render() {
-    console.log(this.state.menuOpen);
     var active = "";
     if (this.state.menuOpen) {
       active = "active"
     }
     return (
       <>
-        <NavLink className="menu-toggle rounded p-0" href="#" onClick={() => this.toggleMenu()}>
+        <NavLink className="menu-toggle rounded p-0" to="" onClick={() => this.toggleMenu()}>
           {this.state.menuOpen ? <FontAwesomeIcon icon="window-close" /> : <FontAwesomeIcon icon="bars" size="1x" />}
         </NavLink>
         <Nav id="sidebar-wrapper" className={active}>
@@ -71,6 +71,10 @@ class NavBar extends React.Component {
                 spy={true}
                 smooth={true}
                 duartion={1000}>Social Media</Link>
+            </li>
+            <li className="sidebar-nav-item mock-link">
+              <NavLink className="js-scroll-trigger"
+                to="/Blog">Blog</NavLink>
             </li>
           </ul>
         </Nav>

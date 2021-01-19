@@ -1,0 +1,21 @@
+{
+  "blogs": "List of Blogs",
+  "published": [
+    {
+      "title": "Coming Soon, maybe",
+      "intro": "As some point, in the future",
+      "postId": 1,
+      "postDate": "2021-01-18",
+      "author": "Leonel Nieto",
+      "image": "https://images.squarespace-cdn.com/content/v1/5a6a66438fd4d22de6b7ba2e/1520359836611-E2MB7ZJ1ALQZ5P5Q3GPW/ke17ZwdGBToddI8pDm48kKbB3HVPj8MusMvvDuC0KfpZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIgqg2P3EVN5nOpwbBoMkSuSL4jAoz49xjOTMrNGODG4gKMshLAGzx4R3EDFOm1kBS/coming-soon.jpg"
+    },
+    {
+      "title": "Did you document that?",
+      "intro": "That is a question my boss asks on a regular basis. Documeting stuff is one of the most anoying things I have to do. So how do you make it easy and fun?",
+      "postId": 2,
+      "postDate": "2020-11-18",
+      "author": "Leonel Nieto",
+      "image": "https://d35fo82fjcw0y8.cloudfront.net/2020/02/05081844/technical-documentation-post-header1.jpg"
+    }
+  ]
+}
