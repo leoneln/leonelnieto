@@ -2,12 +2,12 @@
   "blogs": "List of Blogs",
   "published": [
     {
-      "title": "Coming Soon, maybe",
-      "intro": "As some point, in the future",
+      "title": "Free Hosting?",
+      "intro": "Finally got around to deploying a GCP f1-micro with Nginx to host my personal website.",
       "postId": 1,
       "postDate": "2021-01-18",
       "author": "Leonel Nieto",
-      "image": "https://images.squarespace-cdn.com/content/v1/5a6a66438fd4d22de6b7ba2e/1520359836611-E2MB7ZJ1ALQZ5P5Q3GPW/ke17ZwdGBToddI8pDm48kKbB3HVPj8MusMvvDuC0KfpZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIgqg2P3EVN5nOpwbBoMkSuSL4jAoz49xjOTMrNGODG4gKMshLAGzx4R3EDFOm1kBS/coming-soon.jpg"
+      "image": "https://i.ytimg.com/vi/12hJynECi4s/maxresdefault.jpg"
     },
     {
       "title": "Did you document that?",
