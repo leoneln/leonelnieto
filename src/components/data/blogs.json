@@ -2,6 +2,14 @@
   "blogs": "List of Blogs",
   "published": [
     {
+      "title": "Did you document that?",
+      "intro": "That is a question my boss asks on a regular basis. Documeting stuff is one of the most anoying things I have to do. So how do you make it easy and fun?",
+      "postId": 2,
+      "postDate": "2020-11-18",
+      "author": "Leonel Nieto",
+      "image": "https://d35fo82fjcw0y8.cloudfront.net/2020/02/05081844/technical-documentation-post-header1.jpg"
+    },
+    {
       "title": "Free Hosting?",
       "intro": "Finally got around to deploying a GCP f1-micro with Nginx to host my personal website.",
       "postId": 1,
@@ -10,12 +18,12 @@
       "image": "https://i.ytimg.com/vi/12hJynECi4s/maxresdefault.jpg"
     },
     {
-      "title": "Did you document that?",
-      "intro": "That is a question my boss asks on a regular basis. Documeting stuff is one of the most anoying things I have to do. So how do you make it easy and fun?",
-      "postId": 2,
-      "postDate": "2020-11-18",
+      "title": "Oracle Cloud Free Hosting?",
+      "intro": "More nuggets of interestings stuff on hosting web services. Documented how to set up vm instance on oracle cloud.",
+      "postId": 3,
+      "postDate": "2021-01-31",
       "author": "Leonel Nieto",
-      "image": "https://d35fo82fjcw0y8.cloudfront.net/2020/02/05081844/technical-documentation-post-header1.jpg"
+      "image": "https://cdn.app.compendium.com/uploads/user/e7c690e8-6ff9-102a-ac6d-e4aebca50425/6e262756-1698-47f0-9d18-36a726127d6a/Image/6a520f61b493a3f209aa441333370b2c/screen_shot_2019_12_16_at_3_18_52_pm.png"
     }
   ]
 }
