@@ -5,9 +5,9 @@
       "title": "Did you document that?",
       "intro": "That is a question my boss asks on a regular basis. Documeting stuff is one of the most anoying things I have to do. So how do you make it easy and fun?",
       "postId": 2,
-      "postDate": "2020-11-18",
+      "postDate": "2020-10-05",
       "author": "Leonel Nieto",
-      "image": "https://d35fo82fjcw0y8.cloudfront.net/2020/02/05081844/technical-documentation-post-header1.jpg"
+      "image": "../img/documenting-ugh.jpg"
     },
     {
       "title": "Free Hosting?",
@@ -15,7 +15,7 @@
       "postId": 1,
       "postDate": "2021-01-18",
       "author": "Leonel Nieto",
-      "image": "https://i.ytimg.com/vi/12hJynECi4s/maxresdefault.jpg"
+      "image": "../img/free-hosting.jpg"
     },
     {
       "title": "Oracle Cloud Free Hosting?",
@@ -23,7 +23,15 @@
       "postId": 3,
       "postDate": "2021-01-31",
       "author": "Leonel Nieto",
-      "image": "https://cdn.app.compendium.com/uploads/user/e7c690e8-6ff9-102a-ac6d-e4aebca50425/6e262756-1698-47f0-9d18-36a726127d6a/Image/6a520f61b493a3f209aa441333370b2c/screen_shot_2019_12_16_at_3_18_52_pm.png"
+      "image": "../img/oracle-cloud-infrastructure.png"
+    },
+    {
+      "title": "Shall we Sankey that?",
+      "intro": "Building and interactive sankey chart in Oracle Apex",
+      "postId": 4,
+      "postDate": "2021-02-13",
+      "author": "Leonel Nieto",
+      "image": "../img/sankey-chart.png"
     }
   ]
 }

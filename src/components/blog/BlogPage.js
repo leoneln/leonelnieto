@@ -1,8 +1,11 @@
 import React from 'react'
 import Navbar from './Navbar'
 import ReactMarkdown from 'react-markdown'
-
-
+import Prism from 'prismjs'
+import '../blog/prism-okaida.css'
+import 'prismjs/components/prism-sql'
+import 'prismjs/components/prism-json'
+import 'prismjs/components/prism-plsql'
 
 class BlogPage extends React.Component {
   constructor(props) {
@@ -17,6 +20,7 @@ class BlogPage extends React.Component {
     this.setState({
       post: text
     })
+    setTimeout(() => Prism.highlightAll(), 0)
   }
   render() {
     return (
@@ -24,7 +28,7 @@ class BlogPage extends React.Component {
         <Navbar />
         <section className="container">
           <div className="row">
-            <div className="col-lg-8 mx-auto">
+            <div className="col-lg mx-auto">
               <ReactMarkdown source={this.state.post} />
             </div>
           </div>
