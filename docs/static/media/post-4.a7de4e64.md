@@ -5,19 +5,22 @@
 
 The ideal trajectory of a student at 2 year institution could be as follows
 
-```sql
-admissions -> 
-    award (along with some useless certificates) -> 
-        transfer or workforce, if transfer -> 
-            Bachelors Degree Attainment from 4 year instuttion. 
+```text
+Admissions -> 
+    Award (along with some useless certificates) -> 
+        Transfer or workforce, if transfer -> 
+            Bachelor’s Degree Attainment from 4 year institution. 
 ``` 
-There are a few measures that are often cited to get at post-award student outcomes. For example our institution tracks *Transfer Conversion Rate* which is defined as the number of student who graduate with a transfer degree such as an Associates of Arts or and Associates of Science and go on to obtain a Bachelors Degree from a four year institution with an given time period.  
+There are a few measures that are often cited to get at post-award student outcomes. For example our institution tracks *Transfer Conversion Rate* which is defined as the number of students who graduate with a transfer degree such as an Associates of Arts or and Associates of Science and go on to obtain a Bachelors Degree from a four year institution with an given time period.  
 
-We got the data but struggle to tell a story such that descision-makers can gain insights and act on them. One way to visualize this trajectory is with Sankey chart. I didnt know much about Sankey charts up until a few months ago when our team started experimenting with them. From that limited experience I would point out that not all data lends its self to be visualized in a sankey chart. Check this [read](https://www.data-to-viz.com/graph/sankey.html) or this [read](https://towardsdatascience.com/the-what-why-and-how-of-sankey-diagrams-430cbd4980b5) to learn more about adequate use cases for Sankey Charts. 
+We got the data but struggle to tell a story such that descision-makers can gain insights and act on them. One way to visualize this trajectory is with Sankey chart. I didnt know much about Sankey charts up until a few months ago when our team started experimenting with them. From that limited experience I would point out that not all data lends its self to be visualized in a Sankey chart. Check this [read](https://www.data-to-viz.com/graph/sankey.html) or this [read](https://towardsdatascience.com/the-what-why-and-how-of-sankey-diagrams-430cbd4980b5) to learn more about adequate use cases for Sankey charts. 
+
+The final product looks like this. Notice that ease with which different filters are applied as well how the data in the Sankey Chart is dis-aggregated by a demographic variable. It's also handy to be able to click and drags around to improve the apperance of the chart. 
+![Oracle Apex Dynamic Snakey Chart](https://leonieto.website/img/Sankey-Chart-In-Oracle-Apex.gif)
 
 #### D3 vs Google Charts
 
-Both [Goggle Charts Sankey](https://developers.google.com/chart/interactive/docs/gallery/sankey) Chart and [D3 Sankey Chart](https://bl.ocks.org/d3noob/5028304) will work for this. But I found that the D3 Sankey Chart, while more heavier on the javascript side, it was more fexible and allowed for draggin of nodes. Dragging nodes on the visual is key and I am sure it can be implemented in Google Charts but I did not bother in to looking at how. 
+Both [Goggle Charts Sankey](https://developers.google.com/chart/interactive/docs/gallery/sankey) and [D3 Sankey Chart](https://bl.ocks.org/d3noob/5028304) will work for this. But I found that the D3 Sankey Chart, while more heavily on the javascript side, it was more fexible and allowed for draggin of nodes. Dragging nodes on the visual is key and I am sure it can be implemented in Google Charts but I did not bother in to looking at how. 
 
 #### Wrangling the data
 
@@ -39,7 +42,7 @@ I found that getting the data into a format that works with sanekey chart is one
     ]
 }
 ```
-Notice that the JSON array will has to parent nodes `links` which defines the data flows and `nodes` which defines the names and order of each node. Having a solid understanding of this data structure was key to writing the sql that would output that data in this format. The SQL query would something like this. 
+Notice that the JSON array will has two parent nodes `links` which defines the data flows and `nodes` which define the names and order of each node. Having a solid understanding of this data structure was key to writing the sql that would output that data in this format. The SQL query would something like this. 
 
 ```sql
 with wrapper as (
@@ -63,10 +66,10 @@ The output of this query will look something like the JSON Array above with the 
 #### Loading things in Oracle Apex
 
 I am following the [d3 Snakey documentation here](https://bl.ocks.org/d3noob/5028304) to figure out what needs to happen in Oracle Apex. 
-1. Since I needed to render HTML my first I attempted to use an Oracle Apex PLSQL Dynamic Content only to learn that these cannot be refreshed with a Dynamic Action. Refreshing was crucial so I had to find an alternative. Thanks to an a blog by [Scott Spendolini](https://spendolini.blogspot.com/2015/11/refreshing-plsql-regions-in-apex.html) I was able to achieve what I needed with a stripped classic report. By stripped down I mean disable all attributes and set the region tample to none or select. 
+1. Since I needed to render HTML my first I attempted to use an Oracle Apex PLSQL Dynamic Content only to learn that these cannot be refreshed with a Dynamic Action. Refreshing was crucial so I had to find an alternative. Thanks to a blog by [Scott Spendolini](https://spendolini.blogspot.com/2015/11/refreshing-plsql-regions-in-apex.html) I was able to achieve what I needed with a stripped classic report. By stripped down I mean disable all attributes and set the region tample to none or select. 
 2. The first challenge to overcome is porting the data from the Classic Report to a format that can be used by Sankey Chart.
     - As mentioned the classic report uses the query above but does not render anything becuase the report is set to render as an HTML expression like so `<div class="chart-data" data-source="#S#"></div>`. What I am doing here is porting the data from each row in the query to a data-source html attribute.
-    - Now I need to grab that data, parse it, clean it up and put it in a nice sankey chart format. This was achieved with the following Javascript function. 
+    - Now I need to grab that data, parse it, clean it up and put it in a nice Sankey chart format. This was achieved with the following Javascript function. 
     ```javascript
     console.log(parseSankeyData('chart-data')) //Testing
     function parseSankeyData(elementClass){
@@ -107,11 +110,11 @@ I am following the [d3 Snakey documentation here](https://bl.ocks.org/d3noob/502
         return (finalDataset)
     }
     ```
-    - The above finds all elements with a class of `chart-data` extracts the data-source attribute then appends all into one data source. The source and target names are then swapped by indexes and a nodes sub-array of with name and node id created. The output of this function would be exactly like JSON Array described in Wrangling the Data Section. 
+    - The above finds all elements with a class of `chart-data` extracts the data-source attribute then appends all into one data source. The source and target names are then swapped by indexes and a nodes sub-array with `name` and node `id` created. The output of this function would be exactly like JSON Array described in Wrangling the Data Section. 
 3. Then I loaded the followng javascript libraries (d3 and sankey.js) either on a page or the entire application. I typically opt for using CDN files. 
-    - https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js
-    - https://cdn.rawgit.com/newrelic-forks/d3-plugins-sankey/master/sankey.js
-4. I put the function in step two in the page JavaScript -> Function and Global Declarations. Above this function I added one more function below which renders the Sankey Chart.
+    - `https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js`
+    - `https://cdn.rawgit.com/newrelic-forks/d3-plugins-sankey/master/sankey.js`
+4. I put the function in step two in the page JavaScript -> Function and Global Declarations. Above this function I added one more function below which renders the Sankey chart.
     ```javascript
     function renderSankey(dataContainer,canvas) {
         var units = "Students";
@@ -126,7 +129,7 @@ I am following the [d3 Snakey documentation here](https://bl.ocks.org/d3noob/502
             //.... Rest of function on codepen
     }
     ```
-    - This function is very long since its the one doing rendering the Snakey Chart. The entire function is documented on [CodePen](https://codepen.io/leonelnieto/pen/QWGKxwq?editors=1010). Notice that `renderSankey(dataContainer,canvas)` accepts two paramenters one is the class of the data containers and the other is the id of the element where the Sankey will be drawn. So this means that we still need the canvas div. I added this on footer section of the classic report described on step 1 like so `<div id="sankey-chart">render shakey here</div>`. 
+    - The Sankey rending function above is very long since it’s the one doing rendering the Snakey chart. The entire function is documented on [CodePen](https://codepen.io/leonelnieto/pen/QWGKxwq?editors=1010). Notice that `renderSankey(dataContainer,canvas)` accepts two paramenters one is the class of the data containers and the other is the id of the element where the Sankey will be drawn. So this means that we still need the canvas div. I added this on footer section of the classic report described on step 1 like so `<div id="sankey-chart">render shakey here</div>`. 
 5. Refreshing the Sankey Chart is simple. Create a dynamic function on refresh for the classic report and have it excute `renderSankey('chart-data',"sankey-chart")` javascript code. Set the action to fire on intialization for the first render. 
 6. Lastly, I added some page items as filters and parametarized the SQL query like so. 
     ```plsql
@@ -141,10 +144,4 @@ I am following the [d3 Snakey documentation here](https://bl.ocks.org/d3noob/502
             and foobar in (select * from apex_string.split(:filer3,':'))
     ) select json_object.... from wrapper;
     ```
-Made to the end, sounds like quite a bit of work. Javascript knowhow defenetly came in handy as well as sql to wrangle the data properly. The final result is worth it!! 
-
-![Oracle Apex Dynamic Snakey Chart](https://leonieto.website/img/Sankey-Chart-In-Oracle-Apex.gif)
-
-
-
-
+Made to the end! This sounds like quite a bit of work, but its not and the result is worthy the effort. JavaScript knowhow definitely came in handy as well as sql to wrangle the data properly. 
