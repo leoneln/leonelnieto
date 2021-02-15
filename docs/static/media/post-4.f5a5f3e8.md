@@ -16,7 +16,7 @@ There are a few measures that are often cited to get at post-award student outco
 We got the data but struggle to tell a story such that descision-makers can gain insights and act on them. One way to visualize this trajectory is with Sankey chart. I didnt know much about Sankey charts up until a few months ago when our team started experimenting with them. From that limited experience I would point out that not all data lends its self to be visualized in a Sankey chart. Check this [read](https://www.data-to-viz.com/graph/sankey.html) or this [read](https://towardsdatascience.com/the-what-why-and-how-of-sankey-diagrams-430cbd4980b5) to learn more about adequate use cases for Sankey charts. 
 
 The final product looks like this. Notice that ease with which different filters are applied as well how the data in the Sankey Chart is dis-aggregated by a demographic variable. It's also handy to be able to click and drags around to improve the apperance of the chart. 
-![Oracle Apex Dynamic Snakey Chart](https://leonieto.website/img/Sankey-Chart-In-Oracle-Apex.gif)
+![Oracle Apex Dynamic Sankey Chart](https://leonieto.website/img/Sankey-Chart-In-Oracle-Apex.gif)
 
 #### D3 vs Google Charts
 
@@ -65,7 +65,7 @@ The output of this query will look something like the JSON Array above with the 
 
 #### Loading things in Oracle Apex
 
-I am following the [d3 Snakey documentation here](https://bl.ocks.org/d3noob/5028304) to figure out what needs to happen in Oracle Apex. 
+I am following the [d3 Sankey documentation here](https://bl.ocks.org/d3noob/5028304) to figure out what needs to happen in Oracle Apex. 
 1. Since I needed to render HTML my first I attempted to use an Oracle Apex PLSQL Dynamic Content only to learn that these cannot be refreshed with a Dynamic Action. Refreshing was crucial so I had to find an alternative. Thanks to a blog by [Scott Spendolini](https://spendolini.blogspot.com/2015/11/refreshing-plsql-regions-in-apex.html) I was able to achieve what I needed with a stripped classic report. By stripped down I mean disable all attributes and set the region tample to none or select. 
 2. The first challenge to overcome is porting the data from the Classic Report to a format that can be used by Sankey Chart.
     - As mentioned the classic report uses the query above but does not render anything becuase the report is set to render as an HTML expression like so `<div class="chart-data" data-source="#S#"></div>`. What I am doing here is porting the data from each row in the query to a data-source html attribute.
@@ -129,7 +129,7 @@ I am following the [d3 Snakey documentation here](https://bl.ocks.org/d3noob/502
             //.... Rest of function on codepen
     }
     ```
-    - The Sankey rending function above is very long since it’s the one doing rendering the Snakey chart. The entire function is documented on [CodePen](https://codepen.io/leonelnieto/pen/QWGKxwq?editors=1010). Notice that `renderSankey(dataContainer,canvas)` accepts two paramenters one is the class of the data containers and the other is the id of the element where the Sankey will be drawn. So this means that we still need the canvas div. I added this on footer section of the classic report described on step 1 like so `<div id="sankey-chart">render shakey here</div>`. 
+    - The Sankey rending function above is very long since it’s the one doing rendering the Sankey chart. The entire function is documented on [CodePen](https://codepen.io/leonelnieto/pen/QWGKxwq?editors=1010). Notice that `renderSankey(dataContainer,canvas)` accepts two paramenters one is the class of the data containers and the other is the id of the element where the Sankey will be drawn. So this means that we still need the canvas div. I added this on footer section of the classic report described on step 1 like so `<div id="sankey-chart">render shakey here</div>`. 
 5. Refreshing the Sankey Chart is simple. Create a dynamic function on refresh for the classic report and have it excute `renderSankey('chart-data',"sankey-chart")` javascript code. Set the action to fire on intialization for the first render. 
 6. Lastly, I added some page items as filters and parametarized the SQL query like so. 
     ```plsql
