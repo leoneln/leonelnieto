@@ -96,8 +96,8 @@
    height: auto;
    padding-top: 8rem;
    padding-bottom: 8rem;
-   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("/img/CommandCenter.jpg");
-   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("/img/CommandCenter.jpg");
+   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../public/img/CommandCenter.jpg");
+   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../public/img/CommandCenter.jpg");
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -217,8 +217,8 @@
  
  .callout {
    padding: 15rem 0;
-   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("/img/SLCPDIncidents.gif");
-   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("/img/SLCPDIncidents.gif");
+   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../public/img/SLCPDIncidents.gif");
+   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../public/img/SLCPDIncidents.gif");
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;

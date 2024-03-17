@@ -5,7 +5,7 @@ import Home from './components/home/Home.js';
 import ScrollTop from './components/ScrollTop.js';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faBars, faWindowClose, faDatabase, faSitemap, faChartLine, faChalkboardTeacher, faServer, faAngleUp } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faWindowClose, faDatabase, faSitemap, faChartLine, faChalkboardTeacher, faServer, faAngleUp, faMagnifyingGlassChart,faMemory,faBrain,faPeopleRoof,faSquarePollVertical} from '@fortawesome/free-solid-svg-icons';
 import Footer from './components/Footer';
 import { Route, HashRouter } from 'react-router-dom';
 import Resume from './components/resume/Resume';
@@ -15,7 +15,8 @@ import './components/blog/Blog.css'
 import BlogPage from './components/blog/BlogPage';
 
 
-library.add(fab, faBars, faWindowClose, faDatabase, faSitemap, faChartLine, faChalkboardTeacher, faServer, faAngleUp);
+library.add(fab, faBars, faWindowClose, faDatabase, faSitemap, faChartLine, faChalkboardTeacher, faServer, faAngleUp,faMagnifyingGlassChart,faMemory,faBrain,faPeopleRoof,faSquarePollVertical);
+//library.add(...all); <<FontAwesomeIcon icon={faMemory} />
 
 class App extends Component {
   render() {

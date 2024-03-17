@@ -1,10 +1,35 @@
 {
   "title": "Aspiring Technology Guru",
-  "summary": "A strong work ethic and pasion for innovation have allowed me to succeed in all settings. From non-profit sector program management to most recently business intelligence and data analytics in higher education where I have a proven track record of innovative ideas and methods to ensure programs and initiatives are successful. My social science background combined with information technology and analytics expertise enable me to develop a very analytic and strategic approach to problem-solving. My goals are to continue growing my skills in data science, information technology and leadership.",
+  "address":"476 E. Aspen Meadows Ct Millcreek Utah, 84107",
+  "summary": "Driven by a relentless work ethic and an unwavering commitment to innovation, I have consistently excelled across diverse professional environments. With a robust background in program management within the non-profit sector, I transitioned seamlessly into the realm of business intelligence and data analytics within higher education. Here, I have demonstrated a penchant for introducing innovative ideas and methodologies that ensure the success of programs and initiatives. Fusing my expertise in social science with a profound understanding of information technology and analytics, I adopt a highly analytical and strategic approach to problem-solving. My overarching objectives revolve around further honing my skills in data science, information technology, and leadership to drive impactful change and foster continuous growth.",
+  "tags": [
+    "Data-Driven Innovator: Transforming Insights into Impact",
+    "Strategic Analyst: Bridging Data with Decision-Making",
+    "Tech-Savvy Social Scientist: Uniting Analytics with Advocacy",
+    "Insightful Problem Solver: Empowering Change through Data",
+    "Dynamic Data Storyteller: Shaping Tomorrow's Solutions",
+    "Analytical Leader: Driving Progress through Informed Action"
+  ],
+  "phone":"801.674.2989",
+  "email":"leonelnieto@gmail.com",
   "studies": [
     {
+      "school": "UC Berkeley",
+      "logo": "https://executive.berkeley.edu/themes/custom/berkeley/logo.svg",
+      "url": "https://executive.berkeley.edu",
+      "awards": [
+        {
+          "degree": "Certificate of Data Strategy",
+          "emphasis": "Leveraging Data as a Competitive Advantage",
+          "startDate": "2023-01-01",
+          "endDate": "2023-03-28",
+          "gpa": 3.88
+        }
+      ]
+    },
+    {
       "school": "University of Utah",
-      "logo": "https://umc.utah.edu/wp-content/uploads/2015/01/Ulogo_400p.png",
+      "logo": "https://eccles.utah.edu/wp-content/themes/wptheme-avada5/logos/eccles_logo_footer.png",
       "url": "https://utah.edu/",
       "awards": [
         {
@@ -80,7 +105,7 @@
       "iconprefix": "fas",
       "title": "SQL, TSQL, ETL",
       "experienceInYears": 5,
-      "proficiency": "90%",
+      "proficiency": "95%",
       "color": "progress-bar color-1"
     },
     {
@@ -104,7 +129,7 @@
       "iconprefix": "fab",
       "title": "Java, C Programming",
       "experienceInYears": 2,
-      "proficiency": "60%",
+      "proficiency": "30%",
       "color": "progress-bar color-4"
     },
     {
@@ -112,7 +137,7 @@
       "iconprefix": "fab",
       "title": "Python & R Programming",
       "experienceInYears": 2,
-      "proficiency": "50%",
+      "proficiency": "60%",
       "color": "progress-bar color-5"
     },
     {
@@ -120,7 +145,7 @@
       "iconprefix": "fas",
       "title": "BI & Data Analytics",
       "experienceInYears": 7,
-      "proficiency": "90%",
+      "proficiency": "99%",
       "color": "progress-bar color-6"
     },
     {
@@ -136,7 +161,7 @@
       "iconprefix": "fab",
       "title": "Power BI, Tableau, Cognos",
       "experienceInYears": 4,
-      "proficiency": "90%",
+      "proficiency": "95%",
       "color": "progress-bar color-2"
     }
   ],
@@ -147,10 +172,37 @@
       "url": "http://www.slcc.edu/",
       "roles": [
         {
-          "title": "Business Analytics, Assistant Director",
-          "description": "Oversee the development of enterprise data dashboards and applications. Lead, mentor, and supervise a team of business analysts. Manage strategic projects and ad hoc data requests. Build a relationship with Information Technology department  to ensure data is securely and efficiently delivered to the appropriate users.",
-          "startDate": "2019-07-02",
+          "title": "Institutional Effectivenes, Interim Vice President",
+          "description": "As Interim Vice President of Institutional Effectiveness, I oversee multiple key functions within the college to ensure alignment with strategic objectives and regulatory compliance. This includes leading the Enrollment Council in implementing enrollment plans and steering the Data Governance Council to uphold data quality, access, and security standards. Additionally, I supervise the Data Science and Analytics department, responsible for developing research products, and the Strategy and Analysis department, which drives strategic planning, assessment, and accreditation efforts to support SLCC's mission and vision.",
+          "startDate": "2023-10-16",
           "currentJob": true,
+          "location": "Salt Lake City, Utah"
+        }
+      ]
+    },{
+      "companyName": "Salt Lake Coummnunity College",
+      "logo": "https://i.slcc.edu/institutionalmarketing/images/logo/SLCClogo-BrandColors2015.png",
+      "url": "http://www.slcc.edu/",
+      "roles": [
+        {
+          "title": "Data Science and Analytics, Director",
+          "description": "Led, mentored, and supervised a multidisciplinary team of data analysts, engineers, and researchers, overseeing strategic data projects and addressing inquiries from internal and external stakeholders. Managed essential data products aligned with organizational goals and advocated for data-informed practices. Spearheaded the development of a data exploration application used by over 1500 faculty members and division deans, significantly enhancing student analytics. Additionally, implemented an enterprise-level business intelligence platform to provide actionable insights, improve data quality, and enhance visibility and transparency across the organization.",
+          "startDate": "2022-02-28",
+          "endDate": "2023-10-15",
+          "location": "Salt Lake City, Utah"
+        }
+      ]
+    },
+    {
+      "companyName": "Salt Lake Coummnunity College",
+      "logo": "https://i.slcc.edu/institutionalmarketing/images/logo/SLCClogo-BrandColors2015.png",
+      "url": "http://www.slcc.edu/",
+      "roles": [
+        {
+          "title": "Business Analytics, Assistant Director",
+          "description": "In my role as the Business Analytics Assistant Director, I oversaw the development of enterprise data dashboards and applications. I led, mentored, and supervised a team of business analysts, ensuring their professional growth and the success of our projects. Additionally, I managed strategic initiatives and handled ad hoc data requests efficiently. I built relationships with the Information Technology department to ensure secure and seamless data delivery to our stakeholders.",
+          "startDate": "2019-07-02",
+          "endDate":"2022-03-01",
           "location": "Salt Lake City, Utah"
         }
       ]
