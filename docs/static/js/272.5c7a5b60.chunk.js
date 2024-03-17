@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkleonelnieto=self.webpackChunkleonelnieto||[]).push([[272],{6272:(e,s,t)=>{e.exports=t.p+"static/media/post-4.1a8d493457cfdf7c8c10.md"}}]);
