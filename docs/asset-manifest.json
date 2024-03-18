@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.8af3899c.css",
-    "main.js": "/static/js/main.5b841510.js",
-    "static/js/763.344bc97d.chunk.js": "/static/js/763.344bc97d.chunk.js",
-    "static/js/50.27966b3a.chunk.js": "/static/js/50.27966b3a.chunk.js",
-    "static/js/569.8f55e395.chunk.js": "/static/js/569.8f55e395.chunk.js",
-    "static/js/272.5c7a5b60.chunk.js": "/static/js/272.5c7a5b60.chunk.js",
-    "static/media/CommandCenter.jpg": "/static/media/CommandCenter.cb03a697122b1dec0c39.jpg",
-    "static/media/SLCPDIncidents.gif": "/static/media/SLCPDIncidents.15a8a303acec6154a4bc.gif",
-    "static/media/post-4.md": "/static/media/post-4.1a8d493457cfdf7c8c10.md",
-    "static/media/post-3.md": "/static/media/post-3.46954585c7222923acaf.md",
-    "static/media/post-2.md": "/static/media/post-2.03fb2704417a3aa95acb.md",
-    "static/media/post-1.md": "/static/media/post-1.a19584296330e5a579a4.md",
-    "index.html": "/index.html",
-    "main.8af3899c.css.map": "/static/css/main.8af3899c.css.map",
-    "main.5b841510.js.map": "/static/js/main.5b841510.js.map"
+    "main.css": "/leonelnieto/static/css/main.7bc732c5.css",
+    "main.js": "/leonelnieto/static/js/main.e70e2e60.js",
+    "static/js/763.344bc97d.chunk.js": "/leonelnieto/static/js/763.344bc97d.chunk.js",
+    "static/js/50.27966b3a.chunk.js": "/leonelnieto/static/js/50.27966b3a.chunk.js",
+    "static/js/569.8f55e395.chunk.js": "/leonelnieto/static/js/569.8f55e395.chunk.js",
+    "static/js/272.5c7a5b60.chunk.js": "/leonelnieto/static/js/272.5c7a5b60.chunk.js",
+    "static/media/CommandCenter.jpg": "/leonelnieto/static/media/CommandCenter.cb03a697122b1dec0c39.jpg",
+    "static/media/SLCPDIncidents.gif": "/leonelnieto/static/media/SLCPDIncidents.15a8a303acec6154a4bc.gif",
+    "static/media/post-4.md": "/leonelnieto/static/media/post-4.1a8d493457cfdf7c8c10.md",
+    "static/media/post-3.md": "/leonelnieto/static/media/post-3.46954585c7222923acaf.md",
+    "static/media/post-2.md": "/leonelnieto/static/media/post-2.03fb2704417a3aa95acb.md",
+    "static/media/post-1.md": "/leonelnieto/static/media/post-1.a19584296330e5a579a4.md",
+    "index.html": "/leonelnieto/index.html",
+    "main.7bc732c5.css.map": "/leonelnieto/static/css/main.7bc732c5.css.map",
+    "main.e70e2e60.js.map": "/leonelnieto/static/js/main.e70e2e60.js.map"
   },
   "entrypoints": [
-    "static/css/main.8af3899c.css",
-    "static/js/main.5b841510.js"
+    "static/css/main.7bc732c5.css",
+    "static/js/main.e70e2e60.js"
   ]
 }
