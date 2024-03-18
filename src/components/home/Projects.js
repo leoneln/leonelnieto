@@ -15,7 +15,7 @@ class Projects extends React.Component {
               <Project
                 projectTitle="Business Intelligence"
                 projectDescription="A class project tasked with exploring industry leading business intelligence platforms."
-                projectImage="../img/stock/Analytics.jpeg"
+                projectImage="../public/img/stock/Analytics.jpeg"
                 projectLink="#"
                 projectImageAlt="Business Intelligence Infographic" />
             </div>
@@ -23,7 +23,7 @@ class Projects extends React.Component {
               <Project
                 projectTitle="Computer Skills for all"
                 projectDescription="Computer skills are essential. I volunteer to teach basic computer skills to any adult willing to learn."
-                projectImage="../img/stock/Adult Computer Classes.jpg"
+                projectImage="../public/img/stock/Adult Computer Classes.jpg"
                 projectLink="#"
                 projectImageAlt="Students in a classroom with laptops" />
             </div>
@@ -31,7 +31,7 @@ class Projects extends React.Component {
               <Project
                 projectTitle="BI Maturity"
                 projectDescription="A project to asses the bussiness maturity of an organization and develop a plan to create a data aware culture."
-                projectImage="../img/stock/data analytics.jpeg"
+                projectImage="../public/img/stock/data analytics.jpeg"
                 projectLink="#"
                 projectImageAlt="Poiting at an org chart" />
             </div>
@@ -39,7 +39,7 @@ class Projects extends React.Component {
               <Project
                 projectTitle="Programing with Raspberry Pi"
                 projectDescription="A project to create temperature and humidity sensor."
-                projectImage="../img/stock/thepi.jpg"
+                projectImage="../public/img/stock/thepi.jpg"
                 projectLink="#"
                 projectImageAlt="Custom made raspberry pi enclousure" />
             </div>
@@ -47,7 +47,7 @@ class Projects extends React.Component {
               <Project
                 projectTitle="Data Visualization"
                 projectDescription="Tableau Public Profile with some example work."
-                projectImage="../img/stock/data vizualization.jpeg"
+                projectImage="../public/img/stock/data vizualization.jpeg"
                 projectLink="#"
                 projectImageAlt="Line chart" />
             </div>
@@ -55,7 +55,7 @@ class Projects extends React.Component {
               <Project
                 projectTitle="The Employee Portal"
                 projectDescription="Large self initiated project to create a time tracking and scheduling system."
-                projectImage="../img/stock/screen with code.jpg"
+                projectImage="../public/img/stock/screen with code.jpg"
                 projectLink="#"
                 projectImageAlt="Screen with code" />
             </div>

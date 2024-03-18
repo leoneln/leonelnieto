@@ -29,7 +29,7 @@ class Nav extends React.Component {
           <span className="d-block d-lg-none">Leonel Nieto</span>
           <span className="d-none d-lg-block">
             <img className="img-fluid img-profile rounded-circle mx-auto mb-2"
-              src="../img/self-leonelnieto-small.jpg"
+              src="../public/img/self-leonelnieto-small.jpg"
               alt="" />
           </span>
         </NavLink>
