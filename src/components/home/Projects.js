@@ -15,7 +15,7 @@ class Projects extends React.Component {
               <Project
                 projectTitle="Business Intelligence"
                 projectDescription="A class project tasked with exploring industry leading business intelligence platforms."
-                projectImage="/public/img/stock/Analytics.jpeg"
+                projectImage="../public/img/stock/Analytics.jpeg"
                 projectLink="#"
                 projectImageAlt="Business Intelligence Infographic" />
             </div>
