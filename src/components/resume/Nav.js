@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import img_profile from '../img/leonel_nieto_profile.jpg';
 
 class Nav extends React.Component {
   constructor(props) {
@@ -29,8 +30,8 @@ class Nav extends React.Component {
           <span className="d-block d-lg-none">Leonel Nieto</span>
           <span className="d-none d-lg-block">
             <img className="img-fluid img-profile rounded-circle mx-auto mb-2"
-              src="../public/img/self-leonelnieto-small.jpg"
-              alt="" />
+              src={img_profile}
+              alt="Leonel Nieto" />
           </span>
         </NavLink>
         <div className="navbar-toggler"
