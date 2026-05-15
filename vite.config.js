@@ -4,6 +4,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // If deploying to a subdirectory (e.g. GitHub Pages), set base:
-  // base: '/leonieto-website/',
-  base: '/',
+  base: '/leonelnieto/',
 })
