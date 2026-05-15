@@ -1,68 +1,154 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Leonel Nieto — Personal Website
 
-## Available Scripts
+Built with React + Vite. My resume is the data layer — edit one JSON file and the whole site updates.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Quick Start
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+npm install
+npm run dev
+```
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Open http://localhost:5173
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to Update Your Resume
 
-### `npm run build`
+**Everything professional lives in one file:**
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+src/data/resume.json
+```
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Edit any section and save — the site hot-reloads automatically. The fields map directly to sections on the site:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| JSON field           | Site section                    |
+|----------------------|---------------------------------|
+| `personalInfo`       | Hero, About, Contact            |
+| `experience`         | Experience timeline             |
+| `education`          | Education sidebar               |
+| `technicalSkills`    | Skills section (tech grid)      |
+| `leadershipSkills`   | Skills section (tags)           |
+| `selectedWork`       | Selected Work cards             |
+| `pillars`            | What I Do section               |
+| `additional`         | Additional panel in Experience  |
 
-### `npm run eject`
+### Adding a new job
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+In `resume.json`, add a new object to the `experience` array:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```json
+{
+  "company": "Company Name",
+  "location": "City, State",
+  "companyPeriod": "Month Year – Month Year",
+  "roles": [
+    {
+      "title": "Your Job Title",
+      "period": "Month Year – Month Year",
+      "description": "One sentence summary of the role.",
+      "bullets": [
+        "First accomplishment here.",
+        "Second accomplishment here."
+      ],
+      "tags": ["Tag1", "Tag2", "Tag3"]
+    }
+  ]
+}
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+A company with multiple roles just has multiple objects in the `roles` array — they all collapse under one company header.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## How to Write a Blog Post
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Copy the template:**
+   ```bash
+   cp src/blog/_template.md src/blog/YYYY-MM-DD-your-post-title.md
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. **Fill in the frontmatter** (the `---` block at the top):
+   ```markdown
+   ---
+   title: Your Post Title
+   date: 2025-06-15
+   category: Data Storytelling
+   excerpt: One or two sentences that appear in the preview card.
+   ---
+   ```
 
-### Code Splitting
+3. **Write your post** in standard Markdown below the frontmatter.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+4. Save the file. The post appears automatically on the blog page — no other configuration needed.
 
-### Analyzing the Bundle Size
+**The file name becomes the URL slug.** For example:
+`2025-06-15-my-post.md` → `/blog/2025-06-15-my-post`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+**Files starting with `_` are ignored** (that's why `_template.md` doesn't appear).
 
-### Making a Progressive Web App
+### Supported Markdown
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- `##` and `###` headings
+- **Bold**, *italic*, [links](https://example.com)
+- Bullet and numbered lists
+- `> Blockquotes` (styled as pull quotes)
+- `---` horizontal rules
+- `inline code`
 
-### Advanced Configuration
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## Deploying
 
-### Deployment
+### Build for production
+```bash
+npm run build
+```
+This creates a `dist/` folder with static files.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+### GitHub Pages
+The app uses `HashRouter` — it works on GitHub Pages without extra config.
 
-### `npm run build` fails to minify
+1. Push to GitHub
+2. Go to Settings → Pages → Source: GitHub Actions
+3. Or copy `dist/` contents to your hosting provider
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Project Structure
+
+```
+leonieto-website/
+├── src/
+│   ├── data/
+│   │   └── resume.json          ← Edit this to update all professional content
+│   ├── blog/
+│   │   ├── _template.md         ← Copy this for new posts
+│   │   └── YYYY-MM-DD-slug.md   ← Your blog posts
+│   ├── components/
+│   │   ├── Nav.jsx
+│   │   ├── Hero.jsx
+│   │   ├── WhatIDo.jsx
+│   │   ├── About.jsx
+│   │   ├── Experience.jsx
+│   │   ├── SelectedWork.jsx
+│   │   ├── Skills.jsx
+│   │   ├── BlogPreview.jsx
+│   │   ├── Contact.jsx
+│   │   └── Footer.jsx
+│   ├── pages/
+│   │   ├── Home.jsx             ← Assembles all sections
+│   │   ├── BlogPage.jsx         ← Blog listing with category filter
+│   │   └── BlogPostPage.jsx     ← Individual post with prev/next
+│   ├── utils/
+│   │   └── blogLoader.js        ← Reads markdown files, parses frontmatter
+│   ├── hooks/
+│   │   └── useIntersection.js   ← Scroll-triggered animations
+│   ├── App.jsx                  ← Router
+│   ├── main.jsx                 ← Entry point
+│   └── index.css                ← All styles + design tokens
+├── index.html
+├── vite.config.js
+└── package.json
+```

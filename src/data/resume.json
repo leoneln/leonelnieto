@@ -1,0 +1,284 @@
+{
+  "personalInfo": {
+    "name": "Leonel E. Nieto",
+    "tagline": "Executive Leader — Data Strategy | Analytics Transformation | Digital Innovation",
+    "heroHeadline": "Clear thinking for\ncomplex work.",
+    "heroIntro": "I help organizations make better decisions, build stronger systems, and turn ideas into action. My work brings together strategy, data, planning, and people-centered change.",
+    "heroNote": "Rooted in higher education. Built for any field where leaders need clarity, focus, and progress.",
+    "summary": "Strategic analytics executive with over a decade of experience leading data strategy, enterprise BI, digital infrastructure, and performance systems. Proven track record of modernizing analytics ecosystems, mentoring cross-functional teams, and translating complex data into impactful insights for executive and operational decision-making.",
+    "contact": {
+      "email": "leonelnieto@gmail.com",
+      "phone": "(801) 674-2989",
+      "linkedin": "https://www.linkedin.com/in/leonelnieto",
+      "website": "https://leonieto.website",
+      "location": "Salt Lake City, UT"
+    },
+    "stats": [
+      { "number": "10+", "label": "Years in analytics & strategy leadership" },
+      { "number": "4", "label": "Core disciplines: strategy, data, systems, people" }
+    ],
+    "values": [
+      "Clear thinking",
+      "Practical",
+      "People-centered",
+      "Strategic",
+      "Data-driven",
+      "Adaptable"
+    ],
+    "aboutBody": [
+      "I'm a strategy and data leader who helps organizations move from complexity to clarity. I work best where ideas, people, data, and systems need to come together — and where the stakes are real.",
+      "I've led work across analytics infrastructure, enterprise BI, strategic planning, governance, organizational change, and executive decision support. While my experience is rooted in higher education, the way I work is not limited to one field.",
+      "I help teams understand what matters, focus their effort, and build systems that make progress easier to see and sustain."
+    ],
+    "pullQuote": "My job is to help people make sense of messy problems and move important work forward in a practical way."
+  },
+
+  "education": [
+    {
+      "institution": "David Eccles School of Business, University of Utah",
+      "location": "Salt Lake City, UT",
+      "degree": "Certificate — Executive Leadership",
+      "year": "December 2025"
+    },
+    {
+      "institution": "David Eccles School of Business, University of Utah",
+      "location": "Salt Lake City, UT",
+      "degree": "Master of Science in Information Systems",
+      "year": "May 2016"
+    },
+    {
+      "institution": "University of Utah",
+      "location": "Salt Lake City, UT",
+      "degree": "Bachelor of Arts in Sociology, Minor in Economics",
+      "year": "May 2011"
+    }
+  ],
+
+  "experience": [
+    {
+      "company": "Salt Lake Community College",
+      "location": "Salt Lake City, UT",
+      "companyPeriod": "July 2019 – Present",
+      "roles": [
+        {
+          "title": "Associate Vice President, Institutional Effectiveness",
+          "period": "Oct 2023 – Present",
+          "description": "Lead a portfolio of analytics, data science, and strategic enablement teams. Oversee enterprise data infrastructure, governance protocols, and performance systems to support evidence-based planning, policy, and decision-making. Partner with senior leadership across academic and administrative units to embed analytics into institutional strategy and transformation.",
+          "bullets": [
+            "Created and launched an AI project viability and implementation roadmap to expand analytical capabilities across the institution.",
+            "Developed and institutionalized a standardized metrics framework to drive KPI alignment and executive decision-making.",
+            "Led analytics infrastructure transformation from legacy tools to an Azure-based platform, modernizing pipelines and enhancing data access.",
+            "Rolled out Agile-based intake and prioritization systems to improve BI development velocity and reduce backlog.",
+            "Strengthened governance, metadata management, and data security protocols across the analytics lifecycle.",
+            "Delivered executive-facing insights and long-range forecasting through automated dashboards and predictive models.",
+            "Cultivated a data-literate culture by supporting training, end-user enablement, and cross-functional collaboration.",
+            "Developed a Data Governance framework to institutionalize practices ensuring data security, quality, and accessibility."
+          ],
+          "tags": ["Data Strategy", "AI Roadmap", "Analytics Infrastructure", "Azure", "Governance", "Executive Leadership"]
+        },
+        {
+          "title": "Director, Data Science and Analytics",
+          "period": "Feb 2021 – Oct 2023",
+          "description": "Led, mentored, and supervised a team of data analysts, data engineers, and researchers. Managed data projects and addressed analytics inquiries from a wide range of stakeholders.",
+          "bullets": [
+            "Implemented a BI modernization roadmap, transitioning from fragmented tools to a centralized Power BI platform integrated with Oracle SQL Server.",
+            "Strengthened partnership with college leadership to prioritize and deliver high-impact analytics solutions, including executive dashboards on enrollment, retention, and institutional KPIs.",
+            "Improved project intake and prioritization processes for dashboard and reporting requests, driving alignment between analytics capacity and stakeholder needs.",
+            "Standardized documentation practices, data definitions, and governance protocols to improve trust and reduce rework.",
+            "Deployed data literacy trainings across academic and administrative units, fostering self-service capability."
+          ],
+          "tags": ["Power BI", "Data Science", "Team Leadership", "Stakeholder Management", "BI Modernization"]
+        },
+        {
+          "title": "Assistant Director, Business Analytics",
+          "period": "Jul 2019 – Feb 2021",
+          "description": "Led, mentored, and supervised a team of data analysts. Managed data projects and responded to ad-hoc data requests from diverse stakeholders.",
+          "bullets": [
+            "Improved ad-hoc data requests intake process with Agile methods and prioritization frameworks — minimized response times and reduced data quality errors.",
+            "Created compliance dashboards and institutional risk reports for accreditation and internal audit reviews."
+          ],
+          "tags": ["Agile", "Compliance Reporting", "Business Analytics"]
+        }
+      ]
+    },
+    {
+      "company": "Utah Department of Transportation",
+      "location": "Salt Lake City, UT",
+      "companyPeriod": "July 2018 – June 2019",
+      "roles": [
+        {
+          "title": "Business Intelligence Administrator",
+          "period": "Jul 2018 – Jun 2019",
+          "description": "Established robust data governance practices and effectively communicated data quality and management processes across the department. Developed and delivered data products that empowered informed decision-making.",
+          "bullets": [
+            "Developed and implemented a comprehensive Data Governance strategy, including forming a dedicated committee to ensure effective data management practices.",
+            "Established data quality standards and communication protocols across the department."
+          ],
+          "tags": ["Data Governance", "BI Administration", "Government"]
+        }
+      ]
+    },
+    {
+      "company": "Holy Cross Ministries",
+      "location": "Salt Lake City, UT",
+      "companyPeriod": "September 2011 – July 2018",
+      "roles": [
+        {
+          "title": "Information Technology and Data Analytics, Director",
+          "period": "Jun 2014 – Jul 2018",
+          "description": "Oversaw information technology and data analytics operations. Collaborated closely with leadership and stakeholders on strategic planning and optimization of technology resources.",
+          "bullets": [
+            "Successfully managed and implemented critical technology improvements, enhancing operational efficiency and productivity.",
+            "Conducted user training programs to optimize technology utilization and improve overall productivity.",
+            "Developed and executed an analytics and information strategy aligned with the organization's strategic plan, enabling data-driven decision-making."
+          ],
+          "tags": ["IT Leadership", "Analytics Strategy", "Nonprofit"]
+        },
+        {
+          "title": "Program Outcomes Manager",
+          "period": "Sept 2011 – Jun 2014",
+          "description": "Oversaw evaluation and measurement of program effectiveness. Developed assessment tools and methodologies to track program outcomes.",
+          "bullets": [
+            "Developed and implemented assessment tools and methodologies to track program outcomes.",
+            "Analyzed data to identify trends and areas for improvement, ensuring alignment with the organization's mission.",
+            "Led training sessions to enhance staff understanding of outcome measurement and promote data-driven decision-making."
+          ],
+          "tags": ["Program Evaluation", "Assessment", "Data Analysis"]
+        }
+      ]
+    }
+  ],
+
+  "technicalSkills": [
+    {
+      "group": "Cloud & Data Platforms",
+      "items": ["Azure", "Google Cloud Platform", "Oracle Cloud", "SQL Server"]
+    },
+    {
+      "group": "BI & Visualization",
+      "items": ["Power BI", "Tableau", "Oracle APEX", "Cognos BI"]
+    },
+    {
+      "group": "Languages",
+      "items": ["SQL", "Python", "R", "JavaScript"]
+    },
+    {
+      "group": "DevOps & Automation",
+      "items": ["Git", "CI/CD pipelines", "dbt", "ETL scripting"]
+    },
+    {
+      "group": "Frameworks & Methods",
+      "items": ["Agile (Scrum)", "Data Governance", "Data Modeling", "Compliance Reporting"]
+    },
+    {
+      "group": "AI & LLM Platforms",
+      "items": ["OpenAI API", "Gemini", "Perplexity", "NotebookLM"]
+    }
+  ],
+
+  "leadershipSkills": [
+    "Leading distributed analytics teams",
+    "Translating complex technical needs for non-technical stakeholders",
+    "Data governance and compliance environments",
+    "Cross-department product rollouts",
+    "Executive advising and decision support",
+    "Building data-literate organizational cultures"
+  ],
+
+  "selectedWork": [
+    {
+      "number": "01",
+      "title": "Analytics Infrastructure Transformation",
+      "description": "Led the migration of fragmented legacy analytics tools to a unified Azure-based platform at SLCC — modernizing pipelines, improving data access, and enabling a new level of self-service analytics.",
+      "outcomes": [
+        "Migrated institution to Azure-based cloud analytics platform",
+        "Reduced time-to-insight for leadership from days to hours",
+        "Enabled self-service reporting for 10+ departments"
+      ],
+      "tags": ["Azure", "Data Engineering", "Change Management"]
+    },
+    {
+      "number": "02",
+      "title": "Enterprise BI Modernization",
+      "description": "Replaced a fragmented reporting landscape with a centralized Power BI platform integrated with Oracle SQL Server — giving leadership consistent, trusted data for the first time.",
+      "outcomes": [
+        "Centralized BI onto a single Power BI platform",
+        "Built executive dashboards tracking enrollment, retention, and KPIs",
+        "Standardized data definitions across all reporting"
+      ],
+      "tags": ["Power BI", "SQL Server", "BI Strategy"]
+    },
+    {
+      "number": "03",
+      "title": "AI Viability & Implementation Roadmap",
+      "description": "Created and launched an institution-wide AI project viability framework — enabling leadership to evaluate, prioritize, and responsibly implement AI tools across academic and administrative functions.",
+      "outcomes": [
+        "Built first AI evaluation and governance framework",
+        "Aligned AI adoption to institutional strategic priorities",
+        "Reduced risk of ad-hoc AI tool proliferation"
+      ],
+      "tags": ["AI Strategy", "Governance", "Digital Innovation"]
+    },
+    {
+      "number": "04",
+      "title": "Data Governance Framework",
+      "description": "Designed and institutionalized a comprehensive Data Governance program — establishing standards for data security, quality, metadata management, and accountability across the analytics lifecycle.",
+      "outcomes": [
+        "Established data ownership and stewardship roles",
+        "Improved data quality and reduced rework significantly",
+        "Created documentation and metadata standards organization-wide"
+      ],
+      "tags": ["Data Governance", "Policy", "Compliance"]
+    },
+    {
+      "number": "05",
+      "title": "Standardized Metrics & KPI Framework",
+      "description": "Replaced a bloated set of disconnected metrics with a lean, meaningful framework that showed what was actually changing — and drove real alignment at the executive level.",
+      "outcomes": [
+        "Aligned institutional KPIs to strategic priorities",
+        "Created a metrics framework used across leadership planning",
+        "Built a culture of honest, evidence-based assessment"
+      ],
+      "tags": ["Strategy", "Measurement", "Executive Support"]
+    },
+    {
+      "number": "06",
+      "title": "Agile Analytics Operations",
+      "description": "Introduced Agile-based intake and prioritization systems to modernize how the analytics team operated — reducing backlog, improving delivery speed, and building stakeholder trust.",
+      "outcomes": [
+        "Reduced analytics request backlog by over 40%",
+        "Improved stakeholder satisfaction with delivery timelines",
+        "Created transparent prioritization visible to all teams"
+      ],
+      "tags": ["Agile", "Operations", "Team Leadership"]
+    }
+  ],
+
+  "additional": [
+    "Adjunct Instructor — University of Utah, David Eccles School of Business",
+    "Certificate: Data Strategy — Leveraging Data as a Competitive Advantage (Berkeley Haas)"
+  ],
+
+  "pillars": [
+    {
+      "icon": "strategy",
+      "title": "Strategy",
+      "description": "I help teams set direction and focus on what matters. That means cutting through noise, aligning around priorities, and building plans that can actually be followed."
+    },
+    {
+      "icon": "data",
+      "title": "Data & Insight",
+      "description": "I help people use data to make better decisions — not just report numbers, but build understanding. I turn analysis into stories that drive action."
+    },
+    {
+      "icon": "systems",
+      "title": "Systems & Change",
+      "description": "I help organizations improve how work gets done — designing better infrastructure, fixing broken flows, and leading the people side of change with care."
+    },
+    {
+      "icon": "leadership",
+      "title": "Leadership & Learning",
+      "description": "I build teams, guide people through hard transitions, and create the conditions for real growth. I care about how people experience their work, not just their outputs."
+    }
+  ]
+}
