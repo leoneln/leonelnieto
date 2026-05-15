@@ -74,14 +74,14 @@ A company with multiple roles just has multiple objects in the `roles` array —
 2. **Fill in the frontmatter** (the `---` block at the top):
    ```markdown
    ---
-   title: Your Post Title
+   title:  Post Title
    date: 2025-06-15
    category: Data Storytelling
    excerpt: One or two sentences that appear in the preview card.
    ---
    ```
 
-3. **Write your post** in standard Markdown below the frontmatter.
+3. **Write post** in standard Markdown below the frontmatter.
 
 4. Save the file. The post appears automatically on the blog page — no other configuration needed.
 
@@ -120,6 +120,8 @@ The app uses `HashRouter` — it works on GitHub Pages without extra config.
 
 ```
 leonieto-website/
+|-- public/
+    |-- your-truly.jpeg
 ├── src/
 │   ├── data/
 │   │   └── resume.json          ← Edit this to update all professional content
